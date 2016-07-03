@@ -1,0 +1,144 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+RemoteSystemsTempFiles
+
+.metadata
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Modtronix
+# =========================
+*.bak
+*.nobak
+*.nodis
+*_MODTRONIX.txt
+MODTRONIX_*.txt
+
+# Mercurial Repository
+# =========================
+.hgignore
+**/.hg/cache
+**/.hg/store
+**/.hg/bookmark
+**/.hg/branch
+**/.hg/dirstate
+**/.hg/requires
+**/.hg/thgstatus
+**/.hg/undo*
+**/.hg/00changelog*
+**/.hg/cur-message*
+**/.hg/last-message*
+
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+*.pydevproject
+.metadata
+.gradle
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+.DS_Store
+Debug/
+Development/
+Staging/
+Release/
+Production/
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin 
+.target
+
+# TeXlipse plugin
+.texlipse
+firmware/src/LocMetrics*
+cpplint.py
+
+#qt build
+build-*
+mailbox_sensor/.custom.cfg
+mailbox_base_station/.custom.cfg
